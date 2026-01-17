@@ -26,6 +26,7 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -36,12 +37,14 @@
 header{
     background-color: #FFF8F3;
     padding-top: 51px;
+    background-image: url("../images/developer.png") , url("../images/header_bg.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
-
+/* start navbar section */
 nav{
     width: 71%;
     max-width: 1140px;
-    border: 1px solid red;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -60,4 +63,43 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
 }
+/* end navbar section */
+/* start banner section */
+#banner{
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+/* end banner section  */
 /* end header part */
