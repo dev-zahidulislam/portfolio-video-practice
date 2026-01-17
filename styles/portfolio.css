@@ -29,11 +29,27 @@
     cursor: pointer;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 
 
 
 /* main style */
-/* start header part */
+/* start header section */
 header{
     background-color: #FFF8F3;
     padding-top: 51px;
@@ -41,7 +57,7 @@ header{
     background-position: top left, bottom right;
     background-repeat: no-repeat;
 }
-/* start navbar section */
+/* start navbar part */
 nav{
     width: 71%;
     max-width: 1140px;
@@ -63,8 +79,8 @@ nav .menu a{
     font-size: 20px;
     color: #474747;
 }
-/* end navbar section */
-/* start banner section */
+/* end navbar part */
+/* start banner part */
 #banner{
     margin: 46px 38px 0px 230px;
     display: flex;
@@ -101,5 +117,32 @@ nav .menu a{
     max-width: 585px;
     vertical-align: middle;
 }
-/* end banner section  */
-/* end header part */
+/* end banner part  */
+/* end header section */
+/* start about section */
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    color: #474747;
+}
+/* end about section */
